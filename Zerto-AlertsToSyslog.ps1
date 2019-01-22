@@ -41,11 +41,11 @@ $strZVMIP = "Enter ZVM IP"
 $strZVMPort = "9669"
 $strZVMUser = "Enter ZVM User"
 $strZVMPwd = "EnterZVMPassword"
-$bookMarkFile = "C:\Bookmark.json"
+$bookMarkFile = "Enter bookmark location for file to save"
 $SyslogServer = "EnterSyslogIP"
 $SyslogProtocol = "Enter UDP, TCP, or TCPwithTLS "
 $SyslogPort = "Enter SyslogPort"
-$LogDataDir = "C:\ZertoScripts"
+$LogDataDir = "Enter folder location for transcript data to save"
 $SyslogFacility = "syslog"
 
 ########################################################################################################################
