@@ -126,7 +126,7 @@ function getxZertoSession ($userName, $password){
     $authInfo = [System.Convert]::ToBase64String($authInfo)
     $headers = @{Authorization=("Basic {0}" -f $authInfo)}
     $contentType = "application/json"
-    $xZertoSessionResponse = Invoke-WebRequest -Uri $xZertoSessionURL -Headers $headers -Method POST -ContentType $contentType -SkipCertificateCheck
+    $xZertoSessionResponse = Invoke-WebRequest -Uri $xZertoSessionURL -Headers $headers -Method POST -ContentType $contentType
 
     return $xZertoSessionResponse.headers.get_item("x-zerto-session")
 }
